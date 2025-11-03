@@ -4,20 +4,90 @@
   <head>
     <title>Exercise 7: Typography</title>
     <meta charset="utf-8">
+
+    <!-- body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- header text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
     <style>
       .all-content {
         max-width: 1200px;
-      }
-      
-      img {
-        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+        font-size: 16px;
+        background-color: #bdb5aa;
+        padding-bottom: 0px;
       }
 
       .container {
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 40% 60%;
       }
-      
+
+      img {
+        width: 100%;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.04em;
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 3.5em;
+        margin-top: 0px;
+        padding-right: 80px;
+        color: #202c15;
+      }
+
+      h2 {
+        font-size: 1.6em;
+        padding-top: 10px;
+        color: #202c15;
+      }
+
+      h3 {
+        line-height: 0.8em;
+        padding-top: 15px;
+        color: #555e4c;
+      }
+
+      h4 {
+        font-size: 1.2em;
+        line-height: 2.2em;
+        color: #555e4c;
+      }
+
+      p,
+      ul {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      p {
+        line-height: 1.5em;
+      }
+
+      ul {
+        line-height: 3.2em;
+        padding-left: 14px;
+        padding-right: 25px;
+      }
     </style>
   </head>
   <body>
@@ -25,8 +95,7 @@
       <div class="container">
         <div class="grid-item">
           <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
-          <h4>By: Martha Rose Shulman</h4>
-          <h4>Yield: 3 Servings</h4>
+          <h4>By: Martha Rose Shulman<br>Yield: 3 Servings</h4>
         </div>
 
         <div class="grid-item">
